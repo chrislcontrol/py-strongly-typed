@@ -26,3 +26,6 @@ create-venv: .setup-venv setup-dev
 code-convention:
 	flake8
 	pycodestyle
+
+create-dist:
+	python setup.py sdist

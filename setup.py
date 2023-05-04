@@ -14,6 +14,7 @@ setup(
         'dev': [
             'pycodestyle',
             'flake8',
+            'twine>=4.0.2',
         ],
     }
 )
