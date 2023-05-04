@@ -5,7 +5,7 @@ setup(
     description='Python type enforcer',
     long_description='Python type enforcer',
     packages=find_packages(exclude=["*tests*"]),
-    version='1.0.7',
+    version='1.0.8',
     install_requires=[
         'wheel'
     ],
