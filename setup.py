@@ -5,9 +5,8 @@ setup(
     description='Python type enforcer',
     long_description='Python type enforcer',
     packages=['typyd'],
-    version='1.0.1',
+    version='1.0.2',
     install_requires=[
-        'typing<3.11',
         'wheel'
     ],
     extras_require={
