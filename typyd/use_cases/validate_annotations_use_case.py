@@ -1,4 +1,5 @@
 from typing import Any, Tuple, Union
+
 from typyd.contracts import IValidateAnnotationsUseCase
 from typyd.exceptions import FlowError, MissingAnnotation, InternalTypeError, WrongType
 
