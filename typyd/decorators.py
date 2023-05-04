@@ -1,6 +1,6 @@
 from typing import Callable
 
-from typyd import ValidateAnnotationsUseCase
+from typyd.use_cases.validate_annotations_use_case import ValidateAnnotationsUseCase
 
 
 def typed_function(func, ignore_float_and_integer_difference: bool = True) -> Callable:
