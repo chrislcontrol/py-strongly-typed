@@ -20,6 +20,7 @@ setup(
     packages=find_packages(exclude=["*tests*"]),
     author='Christian Silva',
     author_email='chrislcontrol@hotmail.com',
+    long_description_content_type='text/markdown',
     license='MIT License',
     python_requires=">=3.5",
     version='1.1.1',
