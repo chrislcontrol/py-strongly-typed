@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 def long_description():
     try:
-        return codecs.open('README.md', 'r', 'utf-8').read()
+        return codecs.open('README.rst', 'r', 'utf-8').read()
     except OSError:
         return 'Long description error: Missing README.rst file'
 
@@ -18,7 +18,14 @@ setup(
     description='Python type enforcer',
     long_description=long_description(),
     packages=find_packages(exclude=["*tests*"]),
-    version='1.1.0',
+    author='Christian Silva',
+    author_email='chrislcontrol@hotmail.com',
+    license='MIT License',
+    python_requires=">=3.5",
+    version='1.1.1',
+    project_urls={
+        "GitHub": "https://github.com/chrislcontrol/typyd"
+    },
     install_requires=[
         'wheel'
     ],
