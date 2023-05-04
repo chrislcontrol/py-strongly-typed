@@ -1,4 +1,4 @@
-PROJECT_NAME := py-typed
+PROJECT_NAME := py-strongly-typed
 PYTHON_VERSION := 3.10.4
 VENV_NAME := $(PROJECT_NAME)-$(PYTHON_VERSION)
 
