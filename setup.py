@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 def long_description():
     try:
-        return codecs.open('README.rst', 'r', 'utf-8').read()
+        return codecs.open('README.md', 'r', 'utf-8').read()
     except OSError:
         return 'Long description error: Missing README.rst file'
 
