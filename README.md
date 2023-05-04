@@ -11,7 +11,7 @@ What do I need?
 Description
 ===========
 
-With typyd now typing annotations metters! Use this lib to validate provided args typing.
+With py-strongly-typed, now typing annotations metters! Use this lib to validate provided args typing.
 
 
 Be free to contribute with our [GitHub](https://github.com/chrislcontrol/typyd) project.
