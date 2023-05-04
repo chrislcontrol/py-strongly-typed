@@ -5,10 +5,6 @@ class FlowError(Exception):
     pass
 
 
-class GenericNotAllowed(Exception):
-    pass
-
-
 class MissingAnnotation(Exception):
     pass
 

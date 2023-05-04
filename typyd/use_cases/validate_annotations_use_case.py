@@ -1,8 +1,6 @@
 from typing import Any, Tuple, Union
-from typing import _GenericAlias as GenericAlias  # noqa
-
 from typyd.contracts import IValidateAnnotationsUseCase
-from typyd.exceptions import FlowError, GenericNotAllowed, MissingAnnotation, InternalTypeError, WrongType
+from typyd.exceptions import FlowError, MissingAnnotation, InternalTypeError, WrongType
 
 
 class ValidateAnnotationsUseCase(IValidateAnnotationsUseCase):
@@ -36,13 +34,6 @@ class ValidateAnnotationsUseCase(IValidateAnnotationsUseCase):
         })
 
     def _validate_expected_type(self, expected_type: Any, value: Any) -> bool:
-        if isinstance(expected_type, GenericAlias) and 'UNION' not in str(expected_type).upper():
-            raise GenericNotAllowed('GenericAlias is not allowed in TypedClass, TypedMethod or TypedFunction. \n'
-                                    'If you are trying to provide a GenericAlias '
-                                    'like List[<type>], Tuple[<type], etc... '
-                                    'You should consider to use (List or list), '
-                                    '(Tuple or tuple), etc... instead.')
-
         if expected_type == Any:
             return True
 
