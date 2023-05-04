@@ -23,9 +23,10 @@ setup(
     long_description_content_type='text/markdown',
     license='MIT License',
     python_requires=">=3.5",
-    version='1.1.3',
+    version='1.1.4',
     project_urls={
-        "GitHub": "https://github.com/chrislcontrol/py-strongly-typed"
+        "GitHub": "https://github.com/chrislcontrol/py-strongly-typed",
+        "Tracker": "https://github.com/chrislcontrol/py-strongly-typed/issues",
     },
     install_requires=[
         'wheel'
