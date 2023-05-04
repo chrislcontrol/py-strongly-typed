@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='typyd',
     description='Python type enforcer',
     long_description='Python type enforcer',
-    packages=['typyd'],
-    version='1.0.5',
+    packages=find_packages(exclude=["*tests*"]),
+    version='1.0.6',
     install_requires=[
         'wheel'
     ],
