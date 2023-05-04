@@ -1,4 +1,4 @@
-![Supported Python Versions](https://img.shields.io/pypi/pyversions/py-strongly-typed)
+![Supported Python Versions](https://img.shields.io/badge/python-3.5%2B-brightgreen)
 ![pypi version](https://img.shields.io/pypi/v/py-strongly-typed)
 ![Last commit](https://img.shields.io/github/last-commit/chrislcontrol/py-strongly-typed)
 [![Downloads](https://pepy.tech/badge/py-strongly-typed/month)](https://pepy.tech/project/py-strongly-typed)
@@ -160,4 +160,5 @@ only str will be considered. To provide more than one expected type, use `|` ope
 without Generics.
 
 
-
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
