@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-    name='py-typed',
+    name='typyd',
     description='Python type enforcer',
     long_description='Python type enforcer',
-    packages=['py_typed'],
+    packages=['typyd'],
     version='1.0.0',
     install_requires=[
         'typing>=3.5.0,<3.11',

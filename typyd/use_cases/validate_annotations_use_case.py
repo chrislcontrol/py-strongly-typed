@@ -1,8 +1,8 @@
 from typing import Any, Tuple, Union
 from typing import _GenericAlias as GenericAlias  # noqa
 
-from py_typed.contracts import IValidateAnnotationsUseCase
-from py_typed.exceptions import FlowError, GenericNotAllowed, MissingAnnotation, InternalTypeError, WrongType
+from typyd.contracts import IValidateAnnotationsUseCase
+from typyd.exceptions import FlowError, GenericNotAllowed, MissingAnnotation, InternalTypeError, WrongType
 
 
 class ValidateAnnotationsUseCase(IValidateAnnotationsUseCase):

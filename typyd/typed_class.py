@@ -1,8 +1,8 @@
 from typing import Type
 
-from py_typed.contracts import IValidateAnnotationsUseCase
-from py_typed.use_cases.validate_annotations_use_case import ValidateAnnotationsUseCase
-from py_typed.decorators import typed_function
+from typyd.contracts import IValidateAnnotationsUseCase
+from typyd.use_cases.validate_annotations_use_case import ValidateAnnotationsUseCase
+from typyd.decorators import typed_function
 
 
 class TypedClass:

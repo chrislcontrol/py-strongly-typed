@@ -29,3 +29,9 @@ code-convention:
 
 create-dist:
 	python setup.py sdist
+
+upload-to-test:
+	twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
+upload-to-production:
+	twine upload dist/*
