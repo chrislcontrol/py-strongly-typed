@@ -1,7 +1,7 @@
 from typing import Any, Tuple, Union
 
-from typyd.contracts import IValidateAnnotationsUseCase
-from typyd.exceptions import FlowError, MissingAnnotation, InternalTypeError, WrongType
+from py_strongly_typed.contracts import IValidateAnnotationsUseCase
+from py_strongly_typed.exceptions import FlowError, MissingAnnotation, InternalTypeError, WrongType
 
 
 class ValidateAnnotationsUseCase(IValidateAnnotationsUseCase):

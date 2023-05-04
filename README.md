@@ -1,7 +1,7 @@
-![Supported Python Versions](https://img.shields.io/pypi/pyversions/typyd)
-![pypi version](https://img.shields.io/pypi/v/typyd)
-![Last commit](https://img.shields.io/github/last-commit/chrislcontrol/py-typed)
-[![Downloads](https://pepy.tech/badge/typyd/month)](https://pepy.tech/project/typyd)
+![Supported Python Versions](https://img.shields.io/pypi/pyversions/py-strongly-typed)
+![pypi version](https://img.shields.io/pypi/v/py-strongly-typed)
+![Last commit](https://img.shields.io/github/last-commit/chrislcontrol/py-strongly-typed)
+[![Downloads](https://pepy.tech/badge/py-strongly-typed/month)](https://pepy.tech/project/py-strongly-typed)
 
 What do I need?
 ===============
@@ -23,14 +23,14 @@ Get Started
 
 - **Install**
 
-        pip install typyd
+        pip install py-strongly-typed
 
 Usage
 ===========
 
 -  **Typing classes**
 
-        from typyd import TypedClass
+        from py_strongly_typed import TypedClass
 
 
         class SomeClass(TypedClass):
@@ -47,7 +47,7 @@ Usage
 
    You can also to set only `__init__` method to be typed doing:
         
-        from typyd import TypedClass
+        from py_strongly_typed import TypedClass
 
 
         class SomeClass(TypedClass):
@@ -66,7 +66,7 @@ Usage
 
    or:
 
-        from typyd import TypedInit
+        from py_strongly_typed import TypedInit
 
 
         class SomeClass(TypedInit):
@@ -86,7 +86,7 @@ Usage
 
    You can also use decorators for methods or functions typing:
 
-         from typyd import typed_function
+         from py_strongly_typed import typed_function
    
          @typed_function
          def some_function(arg: str):

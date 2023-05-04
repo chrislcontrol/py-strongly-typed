@@ -14,7 +14,7 @@ def long_description():
 
 
 setup(
-    name='typyd',
+    name='py-strongly-typed',
     description='Python type enforcer',
     long_description=long_description(),
     packages=find_packages(exclude=["*tests*"]),
@@ -25,7 +25,7 @@ setup(
     python_requires=">=3.5",
     version='1.1.1',
     project_urls={
-        "GitHub": "https://github.com/chrislcontrol/typyd"
+        "GitHub": "https://github.com/chrislcontrol/py-strongly-typed"
     },
     install_requires=[
         'wheel'

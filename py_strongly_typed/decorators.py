@@ -1,7 +1,7 @@
 from typing import Callable, Type
 
-from typyd import IValidateAnnotationsUseCase
-from typyd.use_cases.validate_annotations_use_case import ValidateAnnotationsUseCase
+from py_strongly_typed import IValidateAnnotationsUseCase
+from py_strongly_typed.use_cases.validate_annotations_use_case import ValidateAnnotationsUseCase
 
 
 def typed_function(func,
