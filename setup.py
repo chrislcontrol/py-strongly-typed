@@ -7,7 +7,7 @@ setup(
     packages=['typyd'],
     version='1.0.0',
     install_requires=[
-        'typing>=3.5.0,<3.11',
+        'typing<3.11',
         'wheel'
     ],
     extras_require={
