@@ -126,23 +126,15 @@ Argument options
   - ***type_all_methods*** *[bool]* ***[default=True]***:
   `Defines if all methods of the class will be type validated or only __init__.`
 
-  - ***ignore_float_and_integer_difference*** *[bool]* ***[default=True]***: 
-  `If True, providing an integer on a float expected or inverse will be ignored.`
-
 
 - **@typed_function decorator**
 
   - ***typing_validator*** *[Type[IValidateAnnotationsUseCase]]*: `You can provide an custom class that validates
   typing.`
 
-  - ***ignore_float_and_integer_difference*** *[bool]*: `If True, providing an integer on a float expected or inverse 
-  will be ignored.`
-
 
 - **IValidateAnnotationsUseCase**
   - ***func*** *[Callable]*: Function that will has be called after typing validation.
-  - ***ignore_float_and_integer_difference*** *[bool]*: `If True, providing an integer on a float expected or inverse 
-  will be ignored.`
 
 
 Behavior
@@ -153,11 +145,9 @@ MissingAnnotation will be raised.
 
 Limitations
 ===========
-   * Generics (example: List[str]) are not supported yet.
-   * Typing using or operator will validate only first one. Example: providing str or int, 
+   * Typing using `or` operator will validate only first one. Example: providing str or int, 
 only str will be considered. To provide more than one expected type, use `|` operator or `Union`.
-   * `*args` and `**kwargs` are not supported due to be impossible to provide typing annotations for them 
-without Generics.
+   * `*args` and `**kwargs` are not supported yet.
 
 
 ## License
