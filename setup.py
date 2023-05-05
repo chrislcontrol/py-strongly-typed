@@ -23,7 +23,7 @@ setup(
     long_description_content_type='text/markdown',
     license='MIT License',
     python_requires=">=3.5",
-    version='1.1.5',
+    version='2.0.0',
     project_urls={
         "GitHub": "https://github.com/chrislcontrol/py-strongly-typed",
         "Tracker": "https://github.com/chrislcontrol/py-strongly-typed/issues",
